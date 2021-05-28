@@ -301,3 +301,42 @@ Following figures shows effect in error graph learning rate changes from [0.1, 0
     <em style="color: grey">Figure 1.c : Effect of different learning rates on error </em>
   </p> 
 
+# Part 2:
+The part 2 of the assignment is to re write the MNIST digit recognizer such that the following conditions are satisfied. 
+   <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="https://github.com/gokul-pv/EVA6_Assignmets_Session4/blob/main/Part2/Images/Problem_statement.png?raw=true" width =700>
+    <br>
+    <em style="color: grey">Figure 1.a : Problem Statement</em>
+  </p> 
+The summary of the model defined is shown below
+  <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="https://github.com/gokul-pv/EVA6_Assignmets_Session4/blob/main/Part2/Images/Model_summary.png?raw=true" width =600>
+    <br>
+    <em style="color: grey">Figure 1.b : Model Summary</em>
+  </p> 
+
+Data Augmentation is very important to regularize your network and increase the size of your training set. Data Augmentation strategy used here is **random affine transformation**. This is done to ensure that the model does not overfit on the training data set and can generalize well on testing data set. In Euclidean geometry, an affine transformation, is a geometric transformation that preserves lines and parallelism (but not necessarily distances and angles). 
+<iframe src="//commons.wikimedia.org/wiki/File:Affine_transformations.ogv?embedplayer=yes" width="480" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+**Training Log**
+  <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="https://github.com/gokul-pv/EVA6_Assignmets_Session4/blob/main/Part2/Images/Training_Log.png?raw=true" width =1000>
+    <br>
+    <em style="color: grey">Figure 1.c : Training log</em>
+  </p> 
+
+**Result**
+
+  
+
+---
+
+  
+  
+
+An accurarcy of 99.46 is achieved in 19th epoch with model of 12,674 parameters for the MNIST data
+ <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="https://github.com/gokul-pv/EVA6_Assignmets_Session4/blob/main/Part2/Images/Loss_plot.png?raw=true" width =650>
+    <br>
+    <em style="color: grey">Figure 1.d : Loss and accuracy plots</em>
+  </p> 
